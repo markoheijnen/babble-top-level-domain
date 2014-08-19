@@ -3,7 +3,7 @@
 Plugin Name: Babble: Top level domain
 Plugin URI: 
 Description: 
-Author: 
+Author: Marko Heijnen
 Version: 1.0
 Author URI:
 */
