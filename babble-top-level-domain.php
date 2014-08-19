@@ -32,7 +32,9 @@ class Babble_Top_Level_Domain {
 
 	public function overwrite_babble_core() {
 		global $bbl_locale;
+
 		include 'locale.php';
+
 		$bbl_locale = new Babble_Top_Level_Domain_Locale( $bbl_locale );
 	}
 
