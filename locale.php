@@ -15,6 +15,8 @@ class Babble_Top_Level_Domain_Locale extends Babble_Locale {
 		remove_filter( 'query_vars', array( $previous, 'query_vars' ) );
 
 		parent::__construct();
+
+		$this->plugins_loaded();
 	}
 
 	/**
